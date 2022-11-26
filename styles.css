@@ -1,0 +1,106 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 8px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+#hometown-intro {
+    background-image: url("images/Manchester.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    padding: 50px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px black;
+}
+
+#underline {
+    border: 2px solid #FFBF69;
+    border-radius: 3px;
+    margin: 10px auto 0px;
+    width: 350px;
+}
+
+#title {
+    margin-bottom: 0px;
+}
+
+#intro {
+    background: #1D3557;
+    width: 350px;
+    margin: 0px auto 40px;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+#section2, footer {
+    background: #EBE4DA;
+    text-shadow: 0px 0px 1px #2E15D1;
+ 
+}
+
+#section2-title {
+    margin: 0px;
+    padding-top: 30px 
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0px 50px; 
+   
+}
+
+.act-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 60px
+}
+
+.three-act {
+    margin: 0px 40px 8px;
+}
+
+.card {
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    margin: 0px auto 50px;
+    border-bottom: 5px solid #457B9D;
+    border-radius: 5px 5px 0px 0px;
+    background: #A8DADC;
+    color: #457B9D;
+}
+
+#guide-pic {
+    width: 150px;
+    height: 200px;
+}
+
+#about-me {
+    font-style: italic;
+}
+
+#summary {
+    margin: 0px 20px;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#font-hover:hover {
+    background: #FF8360;
+}
